@@ -9,7 +9,7 @@ It does not tell you what to do. It helps you understand yourself well enough to
 
 <br>
 
-[**Open ARPIK.AI**](https://arpitprk89.github.io/arpik-ai/) · [Feedback](#feedback) · [Hindi guide](#hindi-guide) · [Created by Arpit Pareek](#about-the-creator)
+[**Open ARPIK.AI**](https://arpitprk89.github.io/arpik.ai/) · [Feedback](#feedback) · [Hindi guide](#hindi-guide) · [Created by Arpit Pareek](#about-the-creator)
 
 </div>
 
