@@ -59,28 +59,22 @@ ARPIK.AI asks the questions that turn a feeling into a plan: **what happened, wh
 | **Growth** | Streak, mood trend, reasons chart, lessons, next-step checklist |
 | **Lesson card** | Turn a lesson into a shareable image |
 | **Private by design** | Reflections stay on your device; optional app PIN; download or delete your data any time |
-| **Two AI modes** | *Instant* (free online AI) and *Private* (AI runs on your own device) |
+| **Free AI** | Replies come from a free online AI. If it is busy, you get a guided summary and official links instead of an error |
+| **Section colours** | Every section has its own dark colour theme, so you always know where you are |
 | **Install as an app** | Works like an app on your phone, and the basics work offline |
 
 <br>
 
-## Instant vs Private mode
+## How the AI works
 
-| | Instant | Private |
-|:---|:---|:---|
-| Speed | Fast | Slower the first time (downloads a small model once) |
-| Where your text goes | Sent to a free AI service (Pollinations) to get a reply | Stays on your device |
-| Works offline | No | Yes, after the first download |
-| Needs | Any modern browser | Chrome or Edge on a newer device |
-
-If the free online AI is busy, ARPIK.AI shows a simple guided summary and official links instead of failing.
+ARPIK.AI uses a free online AI service ([Pollinations](https://pollinations.ai)) to write replies. It tries several models and retries when one is busy. If none respond, the app shows a simple guided summary and official links, so you are never left with an empty screen.
 
 <br>
 
 ## Privacy and safety
 
 - **Your reflections are stored only on your own device.** ARPIK.AI does not save chats on any server.
-- In **Instant mode** your text is sent to a free third-party AI service to create the reply. Use **Private mode** if you want it to stay on your device.
+- Your text is sent to a free third-party AI service (Pollinations) to create the reply. Do not write anything you would not want sent online.
 - The **app PIN** is a casual lock that hides the app from people using your phone. Data on the device is not encrypted.
 - **ARPIK.AI is not a therapist and not an emergency service.** If someone writes about hurting themselves, the app shows a support message with **Tele-MANAS 14416** (India, free, 24x7) and **112** for emergencies, and encourages talking to a trusted person.
 - The **Feedback** form sends your message by email through a free form service. Please do not write private details from your reflections there.
@@ -99,7 +93,7 @@ If the free online AI is busy, ARPIK.AI shows a simple guided summary and offici
 
 ARPIK.AI is a static website with no build step.
 
-1. Put these files in a GitHub repository: `index.html`, `manifest.webmanifest`, `sw.js`, `icon-192.png`, `icon-512.png`, `arpik-ai.png`.
+1. Put these files in a GitHub repository: `index.html`, `manifest.webmanifest`, `sw.js`, `icon-192.png`, `icon-512.png`, `icon-maskable-512.png`, `apple-touch-icon.png`, `arpik-ai.png`.
 2. Open **Settings → Pages**, choose *Deploy from a branch*, branch `main`, folder `/ (root)`, and save.
 3. After a minute your site is live at `https://<your-username>.github.io/<repo-name>/`.
 
@@ -107,11 +101,11 @@ The Feedback form uses [FormSubmit](https://formsubmit.co). The first message tr
 
 <br>
 
-## Known limits (version 0.1)
+## Known limits (version 1.0)
 
 - The free online AI can be slow or busy. Answers can be imperfect, so treat them as a thinking aid.
 - The opportunity list is small (17 official platforms) and does not show live deadlines. You add dates yourself.
-- Private mode and voice input depend on your browser and device. Voice recognition is weaker in some languages.
+- Voice input depends on your browser and device. Voice recognition is weaker in some languages.
 - This is a young project. Feedback is what decides what comes next.
 
 <br>
