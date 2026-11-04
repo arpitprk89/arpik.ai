@@ -1,0 +1,9 @@
+{
+  "name": "arpik-ai",
+  "version": "0.2.0",
+  "private": true,
+  "description": "ARPIK.AI 0.2 student companion with a secure Gemini serverless API",
+  "engines": {
+    "node": ">=20"
+  }
+}
